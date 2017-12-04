@@ -1,0 +1,8 @@
+对于每一帧生成的proposal和其对应的groundtruth，按照：
+
+errnum=sum(sum(xor(pro,gt)));
+
+其中xor表示“逻辑与”运算，生成的结果为logical类型
+
+由于proposal中每个像素值为0或者255，按照这种错误率定义
+如果某像素点gt为40，而proposal为255，依然算正确
