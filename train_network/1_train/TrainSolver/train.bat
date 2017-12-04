@@ -1,0 +1,1 @@
+E:/NianLiu/Deep_Learning_codes/caffe/caffe-master/bin/caffe.exe train -solver H:/yangle/vgg/train_cnn/solver.prototxt -weights H:/yangle/vgg/train_cnn/SO_global_iter_300000.caffemodel

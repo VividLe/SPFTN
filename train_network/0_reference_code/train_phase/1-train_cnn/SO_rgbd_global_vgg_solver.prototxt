@@ -1,0 +1,15 @@
+net: "/disk3/yangle/vgg/code/train_cnn/SO_rgbd_global_vgg_train_val.prototxt"
+test_iter: 100
+test_interval: 500
+base_lr: 5e-7
+lr_policy: "step"
+gamma: 0.5
+stepsize: 5000
+display: 50
+max_iter: 5000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 10000
+snapshot_prefix: "/disk3/yangle/vgg/result/model/orig/frog"
+solver_mode: GPU
+device_id: 0

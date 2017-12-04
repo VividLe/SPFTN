@@ -1,0 +1,3 @@
+#!/bin/sh
+GLOG_logtostderr=1 /home/server/software/caffe-master/.build_release/tools/convert_imageset.bin   -backend="leveldb" /disk3/yangle/vgg/dataset/frognew/val_image/ /disk3/yangle/vgg/dataset/frognew/frognew_validation.txt /disk3/yangle/vgg/dataset/leveldb/frognew/val_img_leveldb
+/home/server/software/caffe-master/.build_release/tools/convert_imageset.bin -gray=true -backend="leveldb" /disk3/yangle/vgg/dataset/frognew/val_gt/ /disk3/yangle/vgg/dataset/frognew/frognew_validation.txt /disk3/yangle/vgg/dataset/leveldb/frognew/val_mask_leveldb

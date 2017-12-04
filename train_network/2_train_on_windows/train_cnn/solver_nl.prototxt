@@ -1,0 +1,15 @@
+net: "H:/mcc/code/train_cnn/train_val_L2_nl.prototxt"
+test_iter: 1
+test_interval: 500000
+base_lr: 1e-4
+lr_policy: "step"
+gamma: 0.5
+stepsize: 5000
+display: 50
+max_iter: 50000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 500
+snapshot_prefix: "H:/mcc/model/frog/nowei"
+solver_mode: GPU
+device_id: 0

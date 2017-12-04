@@ -1,0 +1,15 @@
+net: "/disk3/yangle/vgg/code/train_cnn/train_val.prototxt"
+test_iter: 10
+test_interval: 50
+base_lr: 1e-7
+lr_policy: "step"
+gamma: 0.5
+stepsize: 5000
+display: 50
+max_iter: 5000000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 50000
+snapshot_prefix: "/disk3/yangle/vgg/result/model/2/here"
+solver_mode: GPU
+device_id: 0
